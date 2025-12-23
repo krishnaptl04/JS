@@ -43,3 +43,31 @@ if (true) {
 }
 
 console.log(username);
+
+
+let arr = [2, 3, 4]
+// console.log(arr[0])
+// double
+const mappedArray = arr.map((value) => {
+    return value * 2
+})
+
+const filterArray = arr.filter((value) => value > 2)
+
+console.log("arr", arr);
+
+console.log("mappedArray", mappedArray)
+console.log("filterArry", filterArray)
+
+
+let a = 10
+
+a = 20
+console.log(a)
+
+const b = 10
+console.log(b)
+
+for (let i = 0; i < arr.length; i++) {
+    // console.log(arr[i])
+}
