@@ -6,7 +6,7 @@
 // console.log("N");
 // console.log("A");
 
-
+sayMyName()
 function sayMyName() {
     console.log("K");
     console.log("R");
