@@ -46,41 +46,16 @@ if (true) {
 
 
 //**************************interesting **************** */
-
+console.log(addone(5))
 function addone(num) {
     return num + 1
 }
 addone(5)
 
+addtwo(5)
 const addtwo = function (num) {
-
-}
-
-
-
-// let arr = [2, 3, 4]
-// console.log(arr[0])
-// double
-// const mappedArray = arr.map((value) => {
-//     return value * 2
-// // })
-
-// const filterArray = arr.filter((value) => value > 2)
-
-// console.log("arr", arr);
-
-// console.log("mappedArray", mappedArray)
-// console.log("filterArry", filterArray)
+    return num + 2
+}                   //error:bcz of we declare function with const &then it before initialize
 
 
-// let a = 10
 
-// a = 20
-// console.log(a)
-
-// const b = 10
-// console.log(b)
-
-// for (let i = 0; i < arr.length; i++) {
-// console.log(arr[i])
-// }
